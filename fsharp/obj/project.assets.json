@@ -1,0 +1,281 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Elmish.Flutter/1.0.0-beta-001": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "6.0.6",
+          "Fable.Flutter": "1.0.0-beta-001"
+        },
+        "compile": {
+          "lib/net6.0/Elmish.Flutter.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Elmish.Flutter.dll": {}
+        }
+      },
+      "Fable.Core/4.0.0-theta-005": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Fable.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Fable.Core.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "Fable.Flutter/1.0.0-beta-001": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "6.0.6",
+          "Fable.Core": "4.0.0-theta-005"
+        },
+        "compile": {
+          "lib/net6.0/Fable.Flutter.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Fable.Flutter.dll": {}
+        }
+      },
+      "FSharp.Core/6.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elmish.Flutter/1.0.0-beta-001": {
+      "sha512": "dUVMPoutq3jbV5qA3BDDR8bS4PDKx44/Zypts2bUzzUCd1roWQUK1JhvTOQVDFfkwS2+EHiFAzfifXEQ0ikw/Q==",
+      "type": "package",
+      "path": "elmish.flutter/1.0.0-beta-001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "elmish.flutter.1.0.0-beta-001.nupkg.sha512",
+        "elmish.flutter.nuspec",
+        "fable/Elmish.Flutter.fsproj",
+        "fable/cmd.fs",
+        "fable/flutter.fs",
+        "fable/main.fs",
+        "fable/prelude.fs",
+        "fable/program.fs",
+        "fable/ring.fs",
+        "fable/sub.fs",
+        "fable_logo.png",
+        "lib/net6.0/Elmish.Flutter.dll",
+        "lib/net6.0/Elmish.Flutter.xml"
+      ]
+    },
+    "Fable.Core/4.0.0-theta-005": {
+      "sha512": "HEFDOp1CvzqT6OswvX4M+4lUGhKghXLaebZtryD8i89agwl7+rslbFNoD1fsV/SaWlCbEzdzqlvUe9yPJjhETA==",
+      "type": "package",
+      "path": "fable.core/4.0.0-theta-005",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "content/RELEASE_NOTES.md",
+        "contentFiles/any/netstandard2.0/RELEASE_NOTES.md",
+        "fable.core.4.0.0-theta-005.nupkg.sha512",
+        "fable.core.nuspec",
+        "fable_logo.png",
+        "lib/netstandard2.0/Fable.Core.dll",
+        "lib/netstandard2.0/Fable.Core.xml"
+      ]
+    },
+    "Fable.Flutter/1.0.0-beta-001": {
+      "sha512": "XxeCBfjo2lECPGHaZn9k87X3VA5ycszv8kFdZCmqtdgrD5GVK92VWg6DisrweV57T452vCgjvfMuBOF13YV2bA==",
+      "type": "package",
+      "path": "fable.flutter/1.0.0-beta-001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "fable.flutter.1.0.0-beta-001.nupkg.sha512",
+        "fable.flutter.nuspec",
+        "fable_logo.png",
+        "lib/net6.0/Fable.Flutter.dll",
+        "lib/net6.0/Fable.Flutter.xml"
+      ]
+    },
+    "FSharp.Core/6.0.6": {
+      "sha512": "oSbTFqPtsp+EGkWAHwYIYYHyXLJRnbzVwcmM06kmXNLdWsp3P6XZViPSJJ2qUQS8feNK+nyPA0qtpNZXANGB7w==",
+      "type": "package",
+      "path": "fsharp.core/6.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "contentFiles/any/netstandard2.0/FSharp.Core.xml",
+        "contentFiles/any/netstandard2.1/FSharp.Core.xml",
+        "fsharp.core.6.0.6.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/FSharp.Core.dll",
+        "lib/netstandard2.1/FSharp.Core.xml",
+        "lib/netstandard2.1/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Elmish.Flutter >= 1.0.0-beta-001",
+      "Fable.Flutter >= 1.0.0-beta-001"
+    ]
+  },
+  "packageFolders": {
+    "/home/davi/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj",
+      "projectName": "fsharp",
+      "projectPath": "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj",
+      "packagesPath": "/home/davi/.nuget/packages/",
+      "outputPath": "/home/davi/gits/multiplayer_canvas_client/fsharp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/davi/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Elmish.Flutter": {
+            "target": "Package",
+            "version": "[1.0.0-beta-001, )"
+          },
+          "Fable.Flutter": {
+            "target": "Package",
+            "version": "[1.0.0-beta-001, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

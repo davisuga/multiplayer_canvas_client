@@ -1,0 +1,6 @@
+/home/davi/gits/multiplayer_canvas_client/fsharp/bin/Debug/net7.0/fsharp.deps.json
+/home/davi/gits/multiplayer_canvas_client/fsharp/bin/Debug/net7.0/fsharp.runtimeconfig.json
+/home/davi/gits/multiplayer_canvas_client/fsharp/obj/Debug/net7.0/fsharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/davi/gits/multiplayer_canvas_client/fsharp/obj/Debug/net7.0/fsharp.AssemblyInfoInputs.cache
+/home/davi/gits/multiplayer_canvas_client/fsharp/obj/Debug/net7.0/fsharp.AssemblyInfo.cs
+/home/davi/gits/multiplayer_canvas_client/fsharp/obj/Debug/net7.0/fsharp.genruntimeconfig.cache

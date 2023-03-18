@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Fable.Flutter" Version="1.0.0-beta-001" />
+    <PackageReference Include="Elmish.Flutter" Version="1.0.0-beta-001" />
+    <Compile Include="main.fs" />
+  </ItemGroup>
+</Project>

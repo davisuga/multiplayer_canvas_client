@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.fsproj": {}
+  },
+  "projects": {
+    "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.fsproj",
+        "projectName": "fsharp",
+        "projectPath": "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.fsproj",
+        "packagesPath": "/home/davi/.nuget/packages/",
+        "outputPath": "/home/davi/gits/multiplayer_canvas_client/fsharp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/davi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/home/davi/.dotnet/sdk/7.0.201/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Elmish.Flutter": {
+              "target": "Package",
+              "version": "[1.0.0-beta-001, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.200, )",
+              "generatePathProperty": true
+            },
+            "Fable.Flutter": {
+              "target": "Package",
+              "version": "[1.0.0-beta-001, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.14, 6.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.14, 6.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.14, 6.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/davi/.dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

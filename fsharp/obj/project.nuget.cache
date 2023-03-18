@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kfmx2hMMQW5bveQWiqdMeSkH6UeOrIq1qLqkpUBTT2fL/14BnYkJ0zme+Lj6tyL8/8TJTEvIjrXlZ5e3u6IEPA==",
+  "success": true,
+  "projectFilePath": "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj",
+  "expectedPackageFiles": [
+    "/home/davi/.nuget/packages/elmish.flutter/1.0.0-beta-001/elmish.flutter.1.0.0-beta-001.nupkg.sha512",
+    "/home/davi/.nuget/packages/fable.core/4.0.0-theta-005/fable.core.4.0.0-theta-005.nupkg.sha512",
+    "/home/davi/.nuget/packages/fable.flutter/1.0.0-beta-001/fable.flutter.1.0.0-beta-001.nupkg.sha512",
+    "/home/davi/.nuget/packages/fsharp.core/6.0.6/fsharp.core.6.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
