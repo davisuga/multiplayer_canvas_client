@@ -7,6 +7,12 @@ open Flutter.Services
 
 open Elmish
 open Elmish.Flutter
+open System.Collections.Generic
+
+let dictOfList (list: ('a * 'b) list) =
+    let dict = new Dictionary<'a,'b>()
+    list |> List.iter (fun (k,v) -> dict.Add(k,v))
+    dict
 
 open Fable.Core
 [<ImportMember("dart:ui")>]
@@ -164,7 +170,7 @@ type CreateBoardScreen(?key: Key) =
 
 type MyApp(?key: Key) =
     inherit StatelessWidget(?key = key)
-    let routes = dict ["/",fun context -> CreateBoardScreen().build(context)]
+    let routes =  dictOfList(["/",fun context -> CreateBoardScreen(?key=key).build(context)])
 
     override _.build(context) =
         MaterialApp(
@@ -173,10 +179,10 @@ type MyApp(?key: Key) =
         
 )
 
-type CreateBoardScreen(?key: Key) =
-    inherit StatelessWidget(?key = key)
+// type CreateBoardScreen2(?key: Key) =
+//     inherit StatelessWidget(?key = key)
 
-    override _.build(context) =
-        MaterialApp(title = "Multiplayer Canvas", home = ElmishWidget.From(init, update, view))    
+//     override _.build(context) =
+//         MaterialApp(title = "Multiplayer Canvas", home = ElmishWidget.From(init, update, view))    
 
 let main () = MyApp() |> runApp
