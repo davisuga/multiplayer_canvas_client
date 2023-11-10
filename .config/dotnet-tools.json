@@ -4,7 +4,15 @@
   "tools": {
     "fable": {
       "version": "4.0.0-theta-018",
-      "commands": ["fable"]
+      "commands": [
+        "fable"
+      ]
+    },
+    "fantomas": {
+      "version": "5.2.4",
+      "commands": [
+        "fantomas"
+      ]
     }
   }
 }

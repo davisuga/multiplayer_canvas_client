@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "kfmx2hMMQW5bveQWiqdMeSkH6UeOrIq1qLqkpUBTT2fL/14BnYkJ0zme+Lj6tyL8/8TJTEvIjrXlZ5e3u6IEPA==",
+  "dgSpecHash": "u9pt618/JbSm9GOeFl60+2LS1sJAYY5NxBrS+RUxEyvIiW3XT+BqY1b+Vn0RN7gSaJFiAvGabqAdHKD7oNnjSQ==",
   "success": true,
-  "projectFilePath": "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj",
+  "projectFilePath": "/Users/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj",
   "expectedPackageFiles": [
-    "/home/davi/.nuget/packages/elmish.flutter/1.0.0-beta-001/elmish.flutter.1.0.0-beta-001.nupkg.sha512",
-    "/home/davi/.nuget/packages/fable.core/4.0.0-theta-005/fable.core.4.0.0-theta-005.nupkg.sha512",
-    "/home/davi/.nuget/packages/fable.flutter/1.0.0-beta-001/fable.flutter.1.0.0-beta-001.nupkg.sha512",
-    "/home/davi/.nuget/packages/fsharp.core/6.0.6/fsharp.core.6.0.6.nupkg.sha512"
+    "/Users/davi/.nuget/packages/elmish.flutter/1.0.0-beta-001/elmish.flutter.1.0.0-beta-001.nupkg.sha512",
+    "/Users/davi/.nuget/packages/fable.core/4.0.0-theta-005/fable.core.4.0.0-theta-005.nupkg.sha512",
+    "/Users/davi/.nuget/packages/fable.flutter/1.0.0-beta-001/fable.flutter.1.0.0-beta-001.nupkg.sha512",
+    "/Users/davi/.nuget/packages/fsharp.core/6.0.6/fsharp.core.6.0.6.nupkg.sha512",
+    "/Users/davi/.nuget/packages/microsoft.netcore.app.ref/6.0.15/microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "/Users/davi/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.15/microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
+    "/Users/davi/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.15/microsoft.netcore.app.host.osx-arm64.6.0.15.nupkg.sha512"
   ],
   "logs": []
 }

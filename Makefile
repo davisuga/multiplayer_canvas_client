@@ -1,5 +1,7 @@
+setup:
+	dotnet tool restore
 compile-watch:
-	fable watch fsharp -o lib --lang dart
+	dotnet fable watch fsharp -o lib --lang dart
 run:
 	flutter run --hot --pid-file pidfile
 hot-reload:

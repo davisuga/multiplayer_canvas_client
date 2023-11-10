@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj": {}
+    "/Users/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj": {}
   },
   "projects": {
-    "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj": {
+    "/Users/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj",
+        "projectUniqueName": "/Users/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj",
         "projectName": "fsharp",
-        "projectPath": "/home/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj",
-        "packagesPath": "/home/davi/.nuget/packages/",
-        "outputPath": "/home/davi/gits/multiplayer_canvas_client/fsharp/obj/",
+        "projectPath": "/Users/davi/gits/multiplayer_canvas_client/fsharp/fsharp.csproj",
+        "packagesPath": "/Users/davi/.nuget/packages/",
+        "outputPath": "/Users/davi/gits/multiplayer_canvas_client/fsharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/davi/.nuget/NuGet/NuGet.Config"
+          "/Users/davi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,16 +53,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }
